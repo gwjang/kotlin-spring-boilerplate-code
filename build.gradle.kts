@@ -80,9 +80,6 @@ subprojects {
     }
 
     dependencies {
-        val api by configurations
-        val kapt by configurations
-        val kaptTest by configurations
         val developmentOnly by configurations
         val testImplementation by configurations
 

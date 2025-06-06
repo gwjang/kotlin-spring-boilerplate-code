@@ -1,4 +1,4 @@
-package gwjang.api.domain
+package gwjang.common.domain
 
 import jakarta.persistence.Column
 import jakarta.persistence.EntityListeners
