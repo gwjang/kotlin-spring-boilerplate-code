@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:17.4
+    environment:
+    - POSTGRES_DB=kotlin-spring-boilerplate-code
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=P4ssword!
+    ports:
+    - 5435:5432
